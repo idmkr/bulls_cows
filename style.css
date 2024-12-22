@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(221, 192, 176);
+}
+
+body {
+  padding: 4vw;
+}
+
+.GAME {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vw;
+  gap: 5vw;
+}
+
+.GAME h1 {
+  font-size: 6vw;
+  font-family: cursive;
+  color: rgb(109, 68, 46);
+}
+.GAME h6 {
+  font-size: 4vw;
+  font-family: cursive;
+  color: rgb(109, 68, 46);
+  margin-top: -6vw;
+}
+
+.inputWrap {
+  display: flex;
+  gap: 0.5vw;
+}
+
+.inputWrap input {
+  width: 5vw;
+  height: 8vw;
+  border: none;
+  padding-left: 3vw;
+  border-radius: 1000vw;
+  font-weight: 600;
+  font-family: cursive;
+  color: rgb(109, 68, 46);
+  font-size: 3vw;
+  background-color: white;
+}
+
+.inputWrap button {
+  width: 10vw;
+  margin-left: 4vw;
+  border: 0.6vw solid rgb(109, 68, 46);
+  border-radius: 2vw;
+  font-family: cursive;
+  color: rgb(109, 68, 46);
+  font-size: 2vw;
+  font-weight: 600;
+  background-color: white;
+}
+
+.image {
+  display: flex;
+  gap: 1vw;
+  font-size: 3vw;
+}
+
+.image img {
+  height: 15vw;
+  width: 15vw;
+}
+
+.enter {
+  border: 0.6vw solid rgb(109, 68, 46);
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+p{
+  font-size: 3vw;
+  font-family: cursive;
+  color: rgb(109, 68, 46);
+}
